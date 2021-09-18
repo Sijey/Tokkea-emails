@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "Nekst-Regular";
+  src: url("../font/Nekst-Regular.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+}
+
+.main {
+  max-width: 600px;
+  width: 100%;
+  background: #1E1F27;
+  padding: 35px 40px 30px;
+  margin: 0 auto;
+}
+
+.logo-text {
+  font-family: Nekst-Regular, sans-serif;
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  color: #B7B7B7;
+  float: right;
+  padding-bottom: 35px;
+  margin: 0;
+}
+
+.logo {
+  padding-bottom: 35px;
+}
+
+.message-text {
+  background: #FEFEFE;
+  border-radius: 6px;
+  width: 100%;
+  padding: 30px 40px 40px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 146%;
+  letter-spacing: 0.15px;
+  color: #6D6D6D;
+}
+
+.name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 153.5%;
+  letter-spacing: 0.02em;
+  color: #444444;
+}
+
+.divider {
+  border-top: 1px solid #EEEEEE;
+  margin: 20px 0 0;
+}
+
+.link {
+  color: #479D7E;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link-description {
+  margin: 0;
+  font-size: 14px;
+  line-height: 146%;
+  /* or 20px */
+
+  text-align: center;
+  letter-spacing: 0.15px;
+
+  color: #8E8F93;
+  padding: 30px 60px;
+}
+
+.socials {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.bottom-links {
+  margin-top: 25px;
+}
+
+.bottom-link {
+  text-decoration: underline;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 142.5%;
+  text-align: right;
+  color: #8E8F93;
+  margin: 0 10px;
+}
+
+.copyrights {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 142.5%;
+  text-align: center;
+  color: #8E8F93;
+  margin: 20px 0 0 0;
+}
+
+.button {
+  background: #479D7E;
+  border-radius: 6px;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  display: flex;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+
+.paragraph {
+  margin-top: 20px;
+}
+
+.text-button {
+  margin-top: 20px;
+}
+
+.user-button {
+  background: #FFFFFF;
+  border: 1px solid #479D7E;
+  border-radius: 6px;
+  color: #479D7E;
+  padding: 5px 15px 5px 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+
